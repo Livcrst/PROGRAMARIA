@@ -5,6 +5,9 @@
     --color-childhood: #04ff9f ;
     --color-youth: #FF9E9E ;
     --color-adult: #ffe96d;
+    --color-link: #99ffff;
+    font-size: 20px;
+
 }
 
 body{
@@ -12,12 +15,61 @@ body{
     font-family: 'Open Sans', sans-serif;
     background-color: var(--color-background);
     color: var(--color-text); /* Color é a cor geral dos textos */
+    margin: 0;
+}
+.title-Primary{
+    font-size: 3rem;
+    font-weight: bold;
+    align-content: center;
+    margin: 0 auto;
 }
 
-h2{
+.Ada{
     color: var(--color-title);
+    font-size: 2rem;
+
 }
 
-h3{
+.title-green{
     color: var(--color-childhood);
+    font-size: 2rem;
+    font-style: italic;
+}
+.title-magenta{
+    color: var(--color-youth);
+    font-size: 2rem;
+    font-style: italic;
+
+}
+.title-yellow{
+    color: var(--color-adult);
+    font-size: 2rem;
+    font-style: italic;
+
+}
+section{
+    width: 50%;
+    max-width: 60%;
+    margin: 0 auto;
+}
+p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+img{
+    width: auto;
+}
+.imgAda{
+    max-width: 30rem;
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-link);
+    font-weight: 700;
+    line-height: 2;
 }
