@@ -1,0 +1,23 @@
+:root{
+    --color-background: #8A71C9; 
+    --color-text: #F0F0F7;
+    --color-title: #2a0074;
+    --color-childhood: #04ff9f ;
+    --color-youth: #FF9E9E ;
+    --color-adult: #ffe96d;
+}
+
+body{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--color-background);
+    color: var(--color-text); /* Color é a cor geral dos textos */
+}
+
+h2{
+    color: var(--color-title);
+}
+
+h3{
+    color: var(--color-childhood);
+}
