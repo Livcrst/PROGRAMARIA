@@ -6,6 +6,9 @@
     --color-youth: #FF9E9E ;
     --color-adult: #ffe96d;
     --color-link: #99ffff;
+    --color-menu: #FF6CB5;
+    --color-main: #FFF;
+
     font-size: 20px;
 
 }
@@ -56,6 +59,11 @@ section{
     margin: 0 auto;
 }
 
+#childhood, #youth, #adult{
+    width: 100% ;
+}
+
+
 p{
     font-size: 1rem;
     line-height: 1.5rem;
@@ -80,4 +88,26 @@ a{
     color: var(--color-link);
     font-weight: 700;
     line-height: 2;
+}
+.main{
+    background-color: var(--color-menu);
+    height: 2rem;
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.main a {
+    color: var(--color-main);
+    text-decoration: underline;
+    font-weight: normal;
+   
+
+}
+
+.main li{
+    display: inline-block;
+    line-height: 1rem;
+    margin: 0 3rem;
 }
