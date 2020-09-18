@@ -8,6 +8,8 @@
     --color-link: #99ffff;
     --color-menu: #FF6CB5;
     --color-main: #FFF;
+    --color-button: #41f341;
+
 
     font-size: 20px;
 
@@ -53,13 +55,14 @@ body{
 
 }
 
-section{
+.one{
     width: 50%;
     max-width: 60%;
     margin: 0 auto;
+    border: black;
 }
 
-#childhood, #youth, #adult{
+section section{
     width: 100% ;
 }
 
@@ -110,4 +113,20 @@ a{
     display: inline-block;
     line-height: 1rem;
     margin: 0 3rem;
+}
+
+form input{
+    padding: 0.3rem 2rem;
+
+
+}
+button{
+
+    background: var(--color-button);
+    color: var(--color-text);
+    border: solid transparent;
+    border-radius: 0.2rem;
+    padding: 0.5rem 3rem ;
+    margin: 0.2rem 1rem;
+
 }
