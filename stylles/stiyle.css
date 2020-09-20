@@ -8,7 +8,7 @@
     --color-link: #99ffff;
     --color-menu: #FF6CB5;
     --color-main: #FFF;
-    --color-button: #41f341;
+    --color-button: #30b830;
 
 
     font-size: 20px;
@@ -130,3 +130,7 @@ button{
     margin: 0.2rem 1rem;
 
 }
+button:hover{
+    background-color: green;
+}
+
