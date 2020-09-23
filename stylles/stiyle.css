@@ -23,7 +23,7 @@ body{
     margin: 0;
 }
 .title-Primary{
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     align-content: center;
     margin: 0 auto;
@@ -95,7 +95,7 @@ a{
 .main{
     background-color: var(--color-menu);
     height: 2rem;
-    max-width: 60%;
+    max-width: 80%;
     margin: 0 auto;
     text-align: center;
     
@@ -104,7 +104,7 @@ a{
 .main a {
     color: var(--color-main);
     text-decoration: underline;
-    font-weight: normal;
+    font-size: smaller;
    
 
 }
@@ -112,7 +112,10 @@ a{
 .main li{
     display: inline-block;
     line-height: 1rem;
-    margin: 0 3rem;
+    margin: 0 0.5rem;
+}
+h4{
+    font-size: medium;
 }
 
 form input{
@@ -134,3 +137,120 @@ button:hover{
     background-color: green;
 }
 
+@media (max-width: 850px){
+    :root{
+        font-size: 62.5%;
+    }
+    .title-Primary{
+        font-size: 2rem;
+        margin-top: 4rem;
+        font-weight: bold;
+        align-content: center;
+        margin: 0 auto;
+    }
+    
+    .Ada{
+        color: var(--color-title);
+        font-size: 2rem;
+    
+    }
+    
+    .title-green{
+        color: var(--color-childhood);
+        font-size: 2rem;
+        font-style: italic;
+    }
+    
+    .title-magenta{
+        color: var(--color-youth);
+        font-size: 2rem;
+        font-style: italic;
+    
+    }
+    
+    .title-yellow{
+        color: var(--color-adult);
+        font-size: 2rem;
+        font-style: italic;
+    
+    }
+    
+    .one{
+        width: 50%;
+        max-width: 60%;
+        margin: 0 auto;
+        border: black;
+    }
+    
+    section section{
+        width: 100% ;
+    }
+    
+    
+    p{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    
+    img{
+        width: 35rem;
+    }
+    
+    .imgAda{
+        max-width: 40rem;
+    }
+    
+    ul {
+        list-style-type: none;
+        text-align: center;
+        padding-left: 0%;
+
+    }
+
+    a{
+        text-decoration: none;
+        color: var(--color-link);
+        font-weight: 700;
+        line-height: 2;
+    }
+    .main{
+        background-color: var(--color-menu);
+        height: 3rem;
+        max-width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+    
+    .main a {
+        color: var(--color-main);
+        text-decoration: underline;
+        font-weight: normal;
+        font-size: 1.5rem;
+       
+    
+    }
+    
+    .main li{
+        display: inline-block;
+        line-height: 2rem;
+        margin: 0 0.3rem;
+    }
+    
+    form input{
+        padding: 0.3rem 2rem;
+    
+    
+    }
+    button{
+    
+        background: var(--color-button);
+        color: var(--color-text);
+        border: solid transparent;
+        border-radius: 0.2rem;
+        padding: 0.5rem 3rem ;
+        margin: 0.2rem 1rem;
+    
+    }
+
+}
