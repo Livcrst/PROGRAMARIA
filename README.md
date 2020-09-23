@@ -11,4 +11,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Javascript](https://www.javascript.com/)
 
 ## :pushpin: Preview
-![Site Ada](http://url/to/img.png)
+![preview site](https://user-images.githubusercontent.com/50409673/94009094-5b6e1580-fd7a-11ea-908c-765e0a726f4d.png)
+## Obrigada pela visita! 
+
+
